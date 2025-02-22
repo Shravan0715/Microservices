@@ -11,7 +11,8 @@ public class EmpDetails {
 	public void PrintEmployeeDetails() {
 		System.out.println("Emp ID: "+employee.EmpId);
 		System.out.println("Employee Name : "+employee.Ename);
-		System.out.println("Employee Salary : "+employee.Salary+" and Bonus Salary : "+calculateBonus());
+		System.out.println("Employee Salary : "+employee.Salary);
+		System.out.println("Bonus Salary :"+calculateBonus());
 		
 		
 	}
