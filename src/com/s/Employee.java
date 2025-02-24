@@ -1,4 +1,4 @@
-package com.java.wipro.microservices.emp;
+package com.s;
 
 public class Employee {
 	int EmpId;

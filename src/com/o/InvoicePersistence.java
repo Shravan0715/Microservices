@@ -1,4 +1,4 @@
-package com.java.wipro.microservices.solid;
+package com.o;
 
 public interface InvoicePersistence {
 	public void save(Invoice invoice);
