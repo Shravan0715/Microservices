@@ -1,6 +1,6 @@
 package com.java.wipro.microservices.solid;
 
-public class Invoice implements persistenceInvoice {
+public class Invoice  {
 	Book book;
 	int quantity;
 	double discountRate;
@@ -33,9 +33,5 @@ public class Invoice implements persistenceInvoice {
 		
 	}
 
-	@Override
-	public void save(Invoice invoice) {
-		// TODO Auto-generated method stub
-		
-	}
+	
 }
