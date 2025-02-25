@@ -26,13 +26,17 @@ public class Car {
         parkingLot.getCapacity();
         
         ((FeeParking) parkingLot).addCar(car1);
+        
         ((FeeParking) parkingLot).addCar(car2);
         
         parkingLot.getCapacity();
 
         Thread.sleep(2000); // Simulating time passage
-
+       
         parkingLot.doPayment(car2);
         parkingLot.getCapacity();
+        parkingLot.parkCar();
+        parkingLot.unparkCar();
+       
     }
 }
