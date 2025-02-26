@@ -1,4 +1,4 @@
-package Microservices.src.com.d;
+package com.d;
 
 import java.io.StringReader;
 import java.io.StringWriter;
