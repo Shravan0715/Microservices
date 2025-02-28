@@ -10,9 +10,6 @@ public abstract class Employee {
         this.id = id;
         this.salary = salary;
     }
-
-
-
     public void showDetails() {
         System.out.println("ID: " + id + ", Name: " + name + ", Salary: $" + salary);
     }

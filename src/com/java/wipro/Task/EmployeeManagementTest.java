@@ -12,6 +12,8 @@ public class EmployeeManagementTest {
         employees.add(new Developer("Shimba", 105, 50000, "C#"));//developer
         employees.add(new SecurityGuard("Shree", 103, 30000, "Night"));//securityguard
         employees.add(new SecurityGuard("Shivam", 104, 25000, "Morning"));
+        
+        
         EmployeeManagementSystem managementSystem = new EmployeeManagementSystem(employees);
         managementSystem.manageEmployees();
     }

@@ -1,0 +1,5 @@
+package com.task.CircuitBreaker.Service;
+
+public class ExternalService {
+
+}
